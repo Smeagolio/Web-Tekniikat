@@ -1,0 +1,34 @@
+
+$myColor: rgb(122, 117, 117);
+$myFont:  'Times New Roman', 'serif';
+$myColor2: rgb(192, 144, 144);
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+#bodybg {
+    background-color: $myColor;
+}
+#bodybg2 {
+    background-color: $myColor2;
+}
+  /* Add a gray background color and some padding to the footer */
+  footer {
+    background-color: $myColor;
+    padding: 25px;
+    height: 100px;
+  }
+.white {
+    color: white;
+}
+.sidenav {
+    padding: 15px;
+}
+div > p {
+    font-family: $myFont;
+}
+div + p {
+    p {background-color: yellow;}
+    
+}
