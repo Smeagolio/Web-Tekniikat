@@ -35,4 +35,8 @@ div + p p {
   background-color: yellow;
 }
 
+#accordion {
+  background-color: rgb(192, 144, 144);
+}
+
 /*# sourceMappingURL=built-styles.css.map */
