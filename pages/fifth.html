@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script src="../js/script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="../index.html">First</a></li>
+          <li><a href="./second.html">Second</a></li>
+          <li><a href="./Third.html">Third</a></li>
+          <li><a href="./fourth.html">Fourth</a></li>
+          <li class="active"><a href="./fifth.html">Fifth</a></li>
+        </ul>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <h1>Henkilöitten tiedot</h1>
+    <p></p>
+    <input type="button" value="Hae henkilöitten tiedot" onclick="haetiedot()">
+    <p id="henktiedot"></p>
+    <table style="width:25%">
+        <tr>
+          <th>Henkilö</th>
+          <th>ID</th>
+          <th>Talo</th>
+          <th>Auto</th>
+        </tr>
+        <tr>
+          <td>Henkilö 1</td>
+          <td id="henk1id"></p></td>
+          <td id="henk1talo"></td>
+          <td id="henk1auto"></td>
+        </tr>
+        <tr>
+            <td>Henkilö 2</td>
+            <td id="henk2id"></p></td>
+            <td id="henk2talo"></td>
+            <td id="henk2auto"></td>
+          </tr>
+          <tr>
+            <td>Henkilö 3</td>
+            <td id="henk3id"></p></td>
+            <td id="henk3talo"></td>
+            <td id="henk3auto"></td>
+          </tr>
+          <tr>
+            <td>Henkilö 4</td>
+            <td id="henk4id"></p></td>
+            <td id="henk4talo"></td>
+            <td id="henk4auto"></td>
+          </tr>
+          <tr>
+            <td>Henkilö 5</td>
+            <td id="henk5id"></p></td>
+            <td id="henk5talo"></td>
+            <td id="henk5auto"></td>
+          </tr>
+      </table>
+
+    
+</body>
+</html>
